@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AwesomeProduct - Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h1 class="text-5xl font-bold mb-4">Introducing AwesomeProduct</h1>
+      <p class="text-xl mb-6">Revolutionize your daily workflow with a single tool.</p>
+      <a href="#buy" class="bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-gray-100">Buy Now</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 bg-gray-100">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Why Choose AwesomeProduct?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div>
+          <h3 class="text-xl font-semibold mb-2">🚀 Fast Performance</h3>
+          <p>Lightning-fast speed ensures your productivity never lags.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">🔒 Secure & Reliable</h3>
+          <p>Top-tier security keeps your data safe at all times.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">⚙️ Easy Integration</h3>
+          <p>Seamlessly connects with your favorite apps and tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Our Products</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <!-- Product Card 1 -->
+        <div class="border rounded-2xl shadow-md overflow-hidden">
+          <img src="Shoes.webp" alt="Shoes" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">Shoes</h3>
+            <p class="text-gray-600 mb-4">A powerful tool to boost your productivity every day.</p>
+            <p class="font-bold text-indigo-600">₹3000/</p>
+          </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="border rounded-2xl shadow-md overflow-hidden">
+          <img src="grocery.jpg" alt="grocery" class="w-full h-48 object-cover" />
+
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">grocery</h3>
+            <p class="text-gray-600 mb-4">Designed for teams who need reliable and scalable solutions.</p>
+            <p class="font-bold text-indigo-600">₹1000/</p>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="border rounded-2xl shadow-md overflow-hidden">
+          <img src="Clothes.jpg" alt="Clothes" class="w-full h-48 object-cover" />
+          <div class="p-5">            <h3 class="text-xl font-semibold mb-2">Clothes</h3>
+            <p class="text-gray-600 mb-4">Everything you need in a compact, affordable package.</p>
+            <p class="font-bold text-indigo-600">₹5000/</p>
+          </div>
+        </div>
+                <!-- Product Card 4 -->
+        <div class="border rounded-2xl shadow-md overflow-hidden">
+          <img src="Cosmetics.webp" alt="Cosmetics" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">Cosmetics</h3>
+            <p class="text-gray-600 mb-4">Everything you need in a compact, affordable package.</p>
+            <p class="font-bold text-indigo-600">₹500/</p>
+          </div>
+        </div>
+                <!-- Product Card 5 -->
+        <div class="border rounded-2xl shadow-md overflow-hidden">
+          <img src="vegetables.avif" alt="Vegetables" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">Vegetables</h3>
+            <p class="text-gray-600 mb-4">Everything you need in a compact, affordable package.</p>
+            <p class="font-bold text-indigo-600">₹150/</p>
+          </div>
+        </div>
+                <!-- Product Card 6 -->
+        <div class="border rounded-2xl shadow-md overflow-hidden">
+          <img src="Fruits.jpg" alt="Fruits" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">Fruits</h3>
+            <p class="text-gray-600 mb-4">Everything you need in a compact, affordable package.</p>
+            <p class="font-bold text-indigo-600">₹100/</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="buy" class="py-20 text-center bg-white">
+    <h2 class="text-4xl font-bold mb-6">Get Started with AwesomeProduct</h2>
+    <p class="mb-8 text-lg">Only ₹5000 for lifetime access.</p>
+    <a href="#" class="bg-indigo-600 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:bg-indigo-700">Buy Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>&copy; 2025 AwesomeProduct. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
